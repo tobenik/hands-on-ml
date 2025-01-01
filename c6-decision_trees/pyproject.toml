@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "c6-decision-trees"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.1"
+scikit-learn = "^1.6.0"
+jupyter = "^1.1.1"
+matplotlib = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
